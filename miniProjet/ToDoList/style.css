@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: gainsboro;
+  margin: 0;
+  padding: 90px;
+}
+
+.ToDoBox {
+  background: white;
+  width: 410px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 11px;
+}
+
+h1 {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+input {
+  padding: 10px;
+  width: 270px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 11px 18px;
+  background: #28a745;
+  border: none;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: green;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 8px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
